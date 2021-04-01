@@ -660,14 +660,41 @@ form #wrapper-button {
 
 /* privacy policy  */
 
+.site-title-pp a {
+  padding: 0;
+  color: white;
+}
+
 .site-title a {
   color: white;
-  /* text-decoration: none; */
+  padding: 0;
 }
+
 #header-pp {
   max-width: 100%;
   height: 100px;
   color: #fff;
   background-color: #081215;
   font: "Helvetica Neue";
+}
+
+#logo-en {
+  color: white;
+}
+
+.privacy-policy h1 {
+  text-align: center;
+  text-decoration: underline double black;
+  margin: 50px auto;
+}
+.privacy-policy h2 {
+  display: inline-block;
+  background: lightgray;
+  margin-left: 2rem;
+}
+.privacy-policy p {
+  margin-left: 2rem;
+}
+.privacy-policy ul {
+  margin-left: 2rem;
 }

@@ -225,7 +225,7 @@ li {
 }
 .mv-copy {
   padding: 50px 20px;
-  text-align: center;
+  text-align: left;
   font-size: 1.1rem;
   line-height: 1.6;
 }
@@ -683,18 +683,30 @@ form #wrapper-button {
 }
 
 .privacy-policy h1 {
+  width: 380px;
+  height: 50px;
+  font-size: 1.75rem;
+  padding: 0.5em;
+  background: #a6d3c8;
+  color: white;
   text-align: center;
-  text-decoration: underline double black;
   margin: 50px auto;
 }
 .privacy-policy h2 {
+  font-size: 1.5rem;
   display: inline-block;
   background: lightgray;
-  margin-left: 2rem;
+  margin: 50px 20px 0 20px;
 }
 .privacy-policy p {
-  margin-left: 2rem;
+  font-size: 1.1rem;
+  margin: 20px 16px 20px 20px;
 }
 .privacy-policy ul {
-  margin-left: 2rem;
+  font-size: 1.1rem;
+  margin-left: 20px;
+}
+
+.footer {
+  margin-top: 60px;
 }
